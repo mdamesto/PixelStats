@@ -31,7 +31,7 @@ const Item = ({ data }) => {
                                     <InkIconSmall key={index} src={`/icons/${color}.svg`} />
                                 ))}
                             </MatchupName>
-                            <MatchupStats>{matchup.wins} - {matchup.looses} ({matchup.win_rate.toFixed(2)}%)</MatchupStats>
+                            <MatchupStats>{matchup.wins} - {matchup.losses} ({matchup.win_rate.toFixed(2)}%)</MatchupStats>
                         </Matchup>
                     ))}
                 </MatchupsWrapper>
