@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { useState, useMemo } from "react";
-import {map, sortBy, reverse} from 'lodash';
+import {map, sortBy } from 'lodash';
 
 const Item = ({ data }) => {
     const [expanded, setExpanded] = useState(false);
