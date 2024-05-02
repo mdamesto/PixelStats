@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/mdamesto.github.io/PixelStats/static/css/main.f855e6bc.css",
+    "main.js": "/mdamesto.github.io/PixelStats/static/js/main.de64b4d2.js",
+    "index.html": "/mdamesto.github.io/PixelStats/index.html",
+    "main.f855e6bc.css.map": "/mdamesto.github.io/PixelStats/static/css/main.f855e6bc.css.map",
+    "main.de64b4d2.js.map": "/mdamesto.github.io/PixelStats/static/js/main.de64b4d2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.de64b4d2.js"
+  ]
+}
