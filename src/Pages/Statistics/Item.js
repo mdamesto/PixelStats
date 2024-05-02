@@ -16,7 +16,7 @@ const Item = ({ data }) => {
         <ItemWrapper>
             <DeckTypeStatsWrapper onClick={() => setExpanded(!expanded)}>
                 {data.inks.map((ink, index) => (
-                    <InkIcon key={index} src={`icons/${ink}.svg`} />
+                    <InkIcon key={index} src={`/icons/${ink}.svg`} />
                 ))}
                 <Name>{data.deck_name}</Name>
                 <DeckStatsWrapper>{data.totalWins} - {data.totalLosses} ({data.averageWinRate.toFixed(2)}%)</DeckStatsWrapper>
@@ -28,7 +28,7 @@ const Item = ({ data }) => {
                             <MatchupName>
                                 {matchup.deck_name}
                                 {matchup.colors.map((color, index) => (
-                                    <InkIconSmall key={index} src={`icons/${color}.svg`} />
+                                    <InkIconSmall key={index} src={`/icons/${color}.svg`} />
                                 ))}
                             </MatchupName>
                             <MatchupStats>{matchup.wins} - {matchup.looses} ({matchup.win_rate.toFixed(2)}%)</MatchupStats>
