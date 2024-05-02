@@ -1,0 +1,16 @@
+{
+    "routes": [
+      {
+        "src": "/icons/(.*)",
+        "dest": "/icons/$1"
+      },
+      {
+        "src": "/(.*).(js|css|html|ico|svg)",
+        "dest": "/$1.$2"
+      },
+      {
+        "src": "/.*",
+        "dest": "/index.html"
+      }
+    ]
+  }
